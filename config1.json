@@ -1,0 +1,1127 @@
+{
+  "ConfigVersion": 1,
+  "ConfigMinAppVersionCode": 1,
+  "ConfigPackage": "br.com.nexusconnect",
+  "ConfigSignature": "n2B9ibvQWv1aS85O0Z9GZCXiBAi9QefqnXyHDMGDzwXdqjIm2CNWcvq7QXapcS41XQTgcPUSh/7QSZSrC/Jp5d30CtMuBH9D/UaZ8Ilhih42DsImHhp/YL/ow/2QT/4gUMpbdLZJDZGRHlFeMq6H1gCtHtKMMIT2bBMyMHPU2VQrrjfNmuWeqdJHUqdK6P+00o/v3J3N17eFAlNf1CcPjKLEy+LefFPDufHaiYToF5yyAgEze3i7qZmz8owM1WPWEtaJQTJIIDDggaYHHLRc0jIrAnbpfhg6gOOQj7qTmAMAtT3KCwQu2jM1Z0UFTaxSEFUwag1p/ZUBRtdYhsmKww==",
+  "Ads": {
+  "TestMode": false,
+
+  "Appodeal": true,
+  "Admob": true,
+
+  "AppKey": "8b5776fddbecdee2facefb737251bc1ca58cdb97851acba4",
+
+  "BannerKey": "ca-app-pub-7450143251007211/1177623946",
+  "InterstitialKey": "ca-app-pub-7450143251007211/5544279754",
+  "RewardedKey": "ca-app-pub-7450143251007211/8864542273",
+
+  "BannerKeyTest": "ca-app-pub-3940256099942544/9214589741",
+"InterstitialKeyTest": "ca-app-pub-3940256099942544/1033173712",
+"RewardedKeyTest": "ca-app-pub-3940256099942544/5224354917",
+
+"Banner": {
+  "Appodeal": true,
+  "Admob": true,
+  "Preferred": "Appodeal",
+  "TimeoutMs": 5000,
+  "Fallback": true,
+  "EnableRetryCooldown": true,
+  "RetryCooldownSeconds": [60, 120, 300],
+  "ResetFailuresOnSuccess": true
+},
+
+"Interstitial": {
+  "Appodeal": true,
+  "Admob": true,
+  "Preferred": "Appodeal",
+  "TimeoutMs": 5000,
+  "Fallback": true
+},
+
+"Rewarded": {
+  "Appodeal": true,
+  "Admob": true,
+  "Preferred": "Appodeal",
+  "TimeoutMs": 5000,
+  "Fallback": true
+}
+},
+"Rewards": {
+    "Enabled": true,
+    "RewardMinutes": 60,
+    "InitialMinutes": 6,
+    "MaxBalanceMinutes": 1440,
+    "CooldownSeconds": 16
+  },
+  "Version": "1.0.0",
+  "ReleaseNotes": "O que há de novo\n\n• Maior estabilidade e desempenho durante o uso.\n• Segurança reforçada e melhorias na confiabilidade.\n• Compatibilidade otimizada com Android 16.\n• Interface aprimorada para uma experiência mais intuitiva.\n• Correções de bugs e otimizações internas.",
+  "UrlUpdate": "https://raw.githubusercontent.com/almdevz/config/main/config.json",
+  "Sms": "https://bitbin.it/yo7JiuOM/raw/",
+  "LogoLink": "https://i.ibb.co/cKSW8nxq/1547d317-1d87-47df-abcb-da4accea268b-removebg-preview.png",
+  "BackgroundLink": "https://i.ibb.co/WN3Myrr7/nexus-home-background-export.png",
+  "TelegramUrl": "https://t.me/nexustunnell",
+  "WhatsappUrl": "https://chat.whatsapp.com/BDT8SwyNJDsAqSA0E9ofoj?s=cl&p=a&mlu=1",
+  "PrivacyPolicyUrl": "https://almdevz.github.io/nexus-tunnel-privacy/",
+  "TermsUrl": "https://almdevz.github.io/nexus-tunnel-terms/",
+  "SupportEmail": "maanagernetwork@gmail.com",
+  "SpeedTestUrl": "https://fast.com/pt/",
+  "PlayStoreUrl": "https://play.google.com/store/apps/details?id=br.com.nexusconnect",
+  "Servers": [
+    {
+      "Name": "BR 01",
+      "FLAG": "br.png",
+      "server_ip": "177.74.185.42",
+      "apphost_a": "ssh.nexustunnel.sbs",
+      "apphost_b": "",
+      "apphost_c": "",
+      "apphost_d": "",
+      "app_proxy": "",
+      "udpport": "7300",
+      "dns1": "8.8.8.8",
+      "dns2": "8.8.4.4",
+      "sshport": "80",
+      "sslport": "443",
+      "user": "penguintime",
+      "pass": "8sJoFEdtFuH0",
+      "StatusUrl": "http://app1.nexustunnel.sbs:8888/server/online_app",
+      "MaxUsers": 1500
+    }
+  ],
+  "Networks": [
+    {
+      "Name": "VIVO 01",
+      "FLAG": "vi.png",
+      "payload": "[rotate=GET;ACL;PATCH;HEAD] / HTTP/1.1[crlf]Host: [app_host][crlf]Connection: Upgrade[crlf]Upgrade: Websocket[crlf][crlf]",
+      "sni": "",
+      "proxy_ip": "172.64.150.8;162.159.140.159;104.18.6.80;104.18.37.248;104.18.7.8;162.159.140.159;104.18.43.147;172.64.144.109;104.18.7.41;104.18.23.26;104.17.72.206;104.18.7.80;162.159.138.6;162.159.128.7;104.17.70.206;104.17.71.206;104.17.73.206;104.17.74.206;104.17.239.25;104.16.53.111;104.16.51.111;104.18.6.41;104.18.38.64;104.24.24.34;104.24.25.34;104.26.12.205;172.67.74.152",
+      "proxyport": "80",
+      "tlsport": "",
+      "connection_type": "proxy"
+    },
+    {
+      "Name": "VIVO 02",
+      "FLAG": "vi.png",
+      "payload": "[rotate=GET;ACL;PATCH;HEAD] / HTTP/1.1[crlf]Host: [app_host][crlf]Connection: Upgrade[crlf]Upgrade: Websocket[crlf][crlf]",
+      "sni": "",
+      "proxy_ip": "162.159.140.159;104.16.239.166;104.17.64.225;104.18.33.113;104.26.5.32;::ffff:6810:356f;104.16.53.111;104.16.51.111;104.17.70.206;104.24.24.34;104.24.25.34;104.26.12.205;172.67.74.152",
+      "proxyport": "80",
+      "tlsport": "",
+      "connection_type": "proxy"
+    },
+    {
+      "Name": "VIVO 03",
+      "FLAG": "vi.png",
+      "payload": "GET / HTTP/1.1[lf]Host: [app_host][lf]Connection: Upgrade[lf]Upgrade: websocket[lf][lf]",
+      "sni": "[app_host]",
+      "proxy_ip": "mastermoney.co;graceland.edu;info.algolia.com",
+      "proxyport": "",
+      "tlsport": "443",
+      "connection_type": "sslproxy"
+    },
+    {
+      "Name": "VIVO 04",
+      "FLAG": "vi.png",
+      "payload": "GET / HTTP/1.1[lf]Host: [app_host][lf]Connection: Upgrade[lf]Upgrade: websocket[lf][lf]",
+      "sni": "",
+      "proxy_ip": "162.159.140.159",
+      "proxyport": "80",
+      "tlsport": "",
+      "connection_type": "proxy"
+    },
+    {
+      "Name": "VIVO 05",
+      "FLAG": "vi.png",
+      "payload": "GET / HTTP/1.1[lf]Host: [app_host][lf]Connection: Upgrade[lf]Upgrade: websocket[lf][lf]",
+      "sni": "",
+      "proxy_ip": "172.66.0.157",
+      "proxyport": "80",
+      "tlsport": "",
+      "connection_type": "proxy"
+    },
+    {
+      "Name": "VIVO 06",
+      "FLAG": "vi.png",
+      "payload": "GET / HTTP/1.1[crlf]Host: [app_host][crlf]Connection: close[crlf]Upgrade: Websocket[crlf][crlf]",
+      "sni": "",
+      "proxy_ip": "172.67.210.218",
+      "proxyport": "80",
+      "tlsport": "",
+      "connection_type": "proxy"
+    },
+    {
+      "Name": "VIVO 07",
+      "FLAG": "vi.png",
+      "payload": "GET / HTTP/1.1[lf]Host: [app_host][lf]Connection: Upgrade[lf]Upgrade: websocket[lf][lf]",
+      "sni": "",
+      "proxy_ip": "104.26.12.205",
+      "proxyport": "80",
+      "tlsport": "",
+      "connection_type": "proxy"
+    },
+    {
+      "Name": "VIVO 08",
+      "FLAG": "vi.png",
+      "payload": "ACL / [split]HTTP/1.1 [lf]Host: [app_host][lf]Connection: close[lf]Upgrade: Websocket[lf][lf]",
+      "sni": "",
+      "proxy_ip": "104.26.12.205",
+      "proxyport": "80",
+      "tlsport": "",
+      "connection_type": "proxy"
+    },
+    {
+      "Name": "VIVO 09",
+      "FLAG": "vi.png",
+      "payload": "GET / HTTP/1.1[lf]Host: [app_host][lf]Connection: Upgrade[lf]Upgrade: websocket[lf][lf]",
+      "sni": "",
+      "proxy_ip": "172.64.150.8;172.66.0.157;162.159.140.159;104.18.6.80;104.18.37.248;104.18.7.8;162.159.140.159;104.18.43.147;172.64.144.109;104.18.7.41;104.18.23.26;104.17.72.206;104.18.7.80;162.159.138.6;162.159.128.7;104.17.70.206;104.17.71.206;104.17.73.206;104.17.74.206;104.17.239.25;104.16.53.111;104.16.51.111;104.18.6.41;104.18.38.64;104.24.24.34;104.24.25.34;104.26.12.205;172.67.74.152;104.16.239.166;104.17.64.225;104.18.33.113;104.26.5.32;::ffff:6810:356f",
+      "proxyport": "80",
+      "tlsport": "",
+      "connection_type": "proxy"
+    },
+    {
+      "Name": "VIVO 10",
+      "FLAG": "vi.png",
+      "payload": "ACL / [split]HTTP/1.1 [lf]Host: [app_host][lf]Connection: close[lf]Upgrade: Websocket[lf][lf]",
+      "sni": "",
+      "proxy_ip": "104.21.93.137",
+      "proxyport": "80",
+      "tlsport": "",
+      "connection_type": "proxy"
+    },
+    {
+      "Name": "VIVO 11",
+      "FLAG": "vi.png",
+      "payload": "[rotate=GET;POST;PUT;HEAD;CONNECT] / HTTP/1.1[lf]Host: [app_host][crlf]Connection: Upgrade[lf]Upgrade: Websocket[lf][lf];[rotate=ACL;MOVE;MERGE;PATCH;SEARCH] / HTTP/1.1 [lf]Host: [app_host][crlf]Connection: Upgrade[lf]Upgrade: Websocket[lf][lf]",
+      "sni": "",
+      "proxy_ip": "104.17.72.206;141.193.213.11;141.193.213.10;172.66.0.157;162.159.140.159;104.18.43.123;172.64.144.133;dev-cms.vivo.com.br;servicosdigitais.vivo.com.br;equipamentos.vivo.com.br;z9w105.store.vivo.com.br;assine.vivo.com.br;api.app.vivo.com.br;api.vivo-torpedoempresas.vivo.com.br;vivoplataformadigital.com.br;vivoup.vivo.com.br;serpro.vivo.com.br;planosempresas.vivo.com.br;portaldegovernancadocumental.vivo.com.br;planosempresas-hml.vivo.com.br;ospregional.vivo.com.br",
+      "proxyport": "80",
+      "tlsport": "",
+      "connection_type": "proxy"
+    },
+    {
+      "Name": "VIVO 12",
+      "FLAG": "vi.png",
+      "payload": "[lf]GET / [split]HTTP/1.1 [lf]Host: conversions.appsflyer.com[lf]Connection: Upgrade[lf]Upgrade: Websocket[lf][lf]",
+      "sni": "",
+      "proxy_ip": "conversions.appsflyer.com",
+      "proxyport": "80",
+      "tlsport": "",
+      "connection_type": "proxy"
+    },
+    {
+      "Name": "VIVO 13",
+      "FLAG": "vi.png",
+      "payload": "[crlf]ACL / HTTP/1.1[lf]Host: [app_host][lf]Upgrade: Websocket[lf][lf];ACL / HTTP/1.1[lf]Host: [app_host][lf]Upgrade: Websocket[lf][instant_split][lf];ACL / HTTP/1.1[lf]Host: [app_host][lf]Upgrade: Websocket[lf][split][lf];GET / HTTP/1.1[lf]Host: [host][lf]Upgrade: Websocket[lf][split][lf]",
+      "sni": "",
+      "proxy_ip": "104.16.239.166;104.17.70.206;104.17.71.206;104.17.72.206;104.17.73.206;104.17.74.206;104.18.18.210;104.18.19.210;104.26.4.32;104.26.5.32;141.193.213.10;141.193.213.11;bucs.playwaze.com;escolas.playwaze.com;ftp.chillwaze.com;vivo360.vivo.com.br;104.18.37.248;api.vivo.com.br;172.64.150.8;vivomusica.vivo.com.br;aceitedigital.vivo.com.br.cdn.cloudflare.net",
+      "proxyport": "80",
+      "tlsport": "",
+      "connection_type": "proxy"
+    },
+    {
+      "Name": "VIVO 14",
+      "FLAG": "vi.png",
+      "payload": "GET / [split][protocol] [crlf]Host: 3.174.59.123[lf]Connection: Upgrade[lf]Upgrade: websocket[crlf][crlf]",
+      "sni": "",
+      "proxy_ip": "3.174.59.123",
+      "proxyport": "80",
+      "tlsport": "",
+      "connection_type": "proxy"
+    },
+    {
+      "Name": "VIVO 15",
+      "FLAG": "vi.png",
+      "payload": "[delay_split]ACL / HTTP/1.1[crlf]Host: [app_host][crlf]Connection: Upgrade[crlf]Upgrade: websocket[crlf][crlf]",
+      "sni": "",
+      "proxy_ip": "[server_host]",
+      "proxyport": "80",
+      "tlsport": "",
+      "connection_type": "proxy"
+    },
+    {
+      "Name": "VIVO 16",
+      "FLAG": "vi.png",
+      "payload": "[delay_split][lf]ACL / HTTP/1.1[lf]Host: [rotate= portal.vivo.com.br;portalrecarga.vivo.com.br/recarga/home/;meuplano.tim.com.br;www.vivo.com.br;buzzfeed.com;mobile.adobe.com;1.0.0.5;1.1.1.1;buzzfeed.com;myspace.com;mobile.google.com;1.0.0.5;spotify.com;pagamentonline.emis.co.ao;playwaze.com;wazer.com;soundwaze.com;escolas.playwaze.com;www.wazeunlimited.com;bucs.playwaze.com;ftp.chillwaze.com;unpkg.com;c6bank.com.br;helpypro.stoodi.com.br;atendimento.lojadointer.com.br;creatorsupport.deezer.com:80;itsupport.surveymonkey.com;linefriendshelp.zendesk.com;vivo.interflashplusvpnpro.cloud;m2.interflashplusvpnpro.cloud][crlf][crlf][crlf]",
+      "sni": "",
+      "proxy_ip": "[server_host]",
+      "proxyport": "80",
+      "tlsport": "",
+      "connection_type": "proxy"
+    },
+    {
+  "Name": "VIVO 17",
+  "FLAG": "vi.png",
+  "payload": "[split]ACL / HTTP/1.1[crlf]Host: HTTP-DNS:1.1.1.1;1.0.0.1;8.8.8.8[crlf]Upgrade: Websocketnn;PATCH / HTTP/1.1[crlf]Host: [app_host][crlf]Host: [app_host][crlf]Connection: Upgrade[crlf]User-Agent: [ua][crlf]Upgrade: websocket[crlf][crlf]",
+  "sni": "",
+  "proxy_ip": "[server_host]",
+  "proxyport": "80",
+  "tlsport": "",
+  "connection_type": "proxy"
+    },
+    {
+  "Name": "VIVO 18",
+  "FLAG": "vi.png",
+  "payload": "PATCH /chat HTTP/1.1[lf]Host: [split]ACL / HTTP/1.1[lf]Host: HTTP-DNS:1.1.1.1;1.0.0.1;8.8.8.8[lf]Upgrade: Websocket[lf][lf];PATCH / HTTP/1.1[crlf]Host: [app_host][crlf]Host: cname.ftjl.app[crlf]Connection: Upgrade[crlf]User-Agent: [ua][crlf]Upgrade: websocket[crlf][crlf]",
+  "sni": "",
+  "proxy_ip": "[server_host]",
+  "proxyport": "80",
+  "tlsport": "",
+  "connection_type": "proxy"
+    },
+    {
+      "Name": "VIVO 19",
+      "FLAG": "vi.png",
+      "payload": "[delay_split]ACL / HTTP/1.1[lf][crlf]Host:[rotate= 104.18.6.80;104.18.7.80;162.159.138.6;162.159.128.7;104.17.70.206;104.17.71.206;104.17.72.206;104.17.73.206;104.17.74.206;172.64.144.109;104.18.43.147;104.18.7.41][crlf]Connection: Upgrade[crlf]Upgrade: Websocket[crlf][crlf]",
+      "sni": "",
+      "proxy_ip": "[server_host]",
+      "proxyport": "80",
+      "tlsport": "",
+      "connection_type": "proxy"
+    },
+    {
+      "Name": "VIVO 20",
+      "FLAG": "vi.png",
+      "payload": "GET- /cdn-cgi/trace [split]HTTP/1.1 [crlf]Host: connect.blackbean.cloud[crlf][crlf][split][crlf][crlf];UNLOCK /? HTTP/1.1[crlf]Host: [app_host][crlf]Connection: upgrade[crlf]User-Agent: [ua][crlf]Upgrade: websocket[crlf] [crlf];UNLOCK /? HTTP/1.1[crlf]Host: connect.blackbean.cloud[crlf] [crlf] [crlf]Ꮯontent-Length:9999999999999[crlf][crlf]",
+      "sni": "",
+      "proxy_ip": "bancah.com.br;104.18.10.131;104.18.11.131;ayabooks.com.br;104.18.20.132;104.18.21.132;connect.blackbean.cloud;104.26.0.245;104.26.1.245;172.67.70.139;188.114.97.2;188.114.96.2;188.114.99.229",
+      "proxyport": "80",
+      "tlsport": "",
+      "connection_type": "proxy"
+    },
+    {
+      "Name": "VIVO 21",
+      "FLAG": "vi.png",
+      "payload": "GET- /cdn-cgi/trace [split]HTTP/1.1 [crlf]Host: connect.blackbean.cloud[crlf][crlf][split][crlf][crlf];UNLOCK /? HTTP/1.1[crlf]Host: [app_host][crlf]Connection: upgrade[crlf]User-Agent: [ua][crlf]Upgrade: websocket[crlf] [crlf];UNLOCK /? HTTP/1.1[crlf]Host: connect.blackbean.cloud[crlf] [crlf]Ꮯontent-Length:9999999999999[crlf][crlf]",
+      "sni": "",
+      "proxy_ip": "bancah.com.br;104.18.10.131;104.18.11.131;ayabooks.com.br;104.18.20.132;104.18.21.132;connect.blackbean.cloud;104.26.0.245;104.26.1.245;172.67.70.139;188.114.97.2;188.114.96.2;188.114.99.229",
+      "proxyport": "80",
+      "tlsport": "",
+      "connection_type": "proxy"
+    },
+    {
+      "Name": "VIVO 22",
+      "FLAG": "vi.png",
+      "payload": "[rotate=GET;PATCH;HEAD] / HTTP/1.1[lf]Host: [app_host][lf]Upgrade: Websocket[lf][split][lf];DELETE / [split]HTTP/1.1 [lf]Host: [app_host][crlf]Connection: Upgrade[crlf]User-Agent: [ua][crlf]Upgrade: websocket[crlf][crlf]",
+      "sni": "",
+      "proxy_ip": "104.16.239.166",
+      "proxyport": "80",
+      "tlsport": "",
+      "connection_type": "proxy"
+    },
+    {
+      "Name": "VIVO 23",
+      "FLAG": "vi.png",
+      "payload": "[rotate=GET;PATCH;HEAD] / HTTP/1.1[lf]Host: [app_host][lf]Upgrade: Websocket[lf][split][lf];DELETE / [split]HTTP/1.1 [lf]Host: [app_host][crlf]Connection: Upgrade[crlf]User-Agent: [ua][crlf]Upgrade: websocket[crlf][crlf]",
+      "sni": "",
+      "proxy_ip": "104.17.64.225",
+      "proxyport": "80",
+      "tlsport": "",
+      "connection_type": "proxy"
+    },
+    {
+      "Name": "VIVO 24",
+      "FLAG": "vi.png",
+      "payload": "[rotate=GET;PATCH;HEAD] / HTTP/1.1[lf]Host: [app_host][lf]Upgrade: Websocket[lf][split][lf];DELETE / [split]HTTP/1.1 [lf]Host: [app_host][crlf]Connection: Upgrade[crlf]User-Agent: [ua][crlf]Upgrade: websocket[crlf][crlf]",
+      "sni": "",
+      "proxy_ip": "104.18.33.113",
+      "proxyport": "80",
+      "tlsport": "",
+      "connection_type": "proxy"
+    },
+    {
+      "Name": "VIVO 25",
+      "FLAG": "vi.png",
+      "payload": "ACL / [split]HTTP/1.1 [lf]Host: [app_host][lf]Upgrade: Websocket[lf][lf];[split][lf];ACL / HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: Upgrade[crlf]Connection: Upgrade[crlf][crlf];[split][lf];ACL / HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: Upgrade[crlf]Connection: Upgrade[crlf][crlf]",
+      "sni": "",
+      "proxy_ip": "104.26.12.205",
+      "proxyport": "80",
+      "tlsport": "",
+      "connection_type": "proxy"
+    },
+    {
+      "Name": "VIVO 26",
+      "FLAG": "vi.png",
+      "payload": "ACL / [split]HTTP/1.1 [lf]Host: [app_host][lf]Upgrade: Websocket[lf][lf];[split][lf];ACL / HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: Upgrade[crlf]Connection: Upgrade[crlf][crlf];[split][lf];ACL / HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: Upgrade[crlf]Connection: Upgrade[crlf][crlf]",
+      "sni": "",
+      "proxy_ip": "172.67.74.152",
+      "proxyport": "80",
+      "tlsport": "",
+      "connection_type": "proxy"
+    },
+    {
+      "Name": "VIVO 27",
+      "FLAG": "vi.png",
+      "payload": "[rotate=ACL;GET;PATCH;HEAD] / HTTP/1.1[lf]Host: [app_host][lf]Upgrade: Websocket[lf][split][lf]",
+      "sni": "",
+      "proxy_ip": "104.16.239.166",
+      "proxyport": "80",
+      "tlsport": "",
+      "connection_type": "proxy"
+    },
+    {
+      "Name": "VIVO 28",
+      "FLAG": "vi.png",
+      "payload": "[rotate=ACL;GET;PATCH;HEAD] / HTTP/1.1[lf]Host: [app_host][lf]Upgrade: Websocket[lf][split][lf]",
+      "sni": "",
+      "proxy_ip": "104.17.64.225",
+      "proxyport": "80",
+      "tlsport": "",
+      "connection_type": "proxy"
+    },
+    {
+      "Name": "VIVO 29",
+      "FLAG": "vi.png",
+      "payload": "[rotate=ACL;GET;PATCH;HEAD] / HTTP/1.1[lf]Host: [app_host][lf]Upgrade: Websocket[lf][split][lf]",
+      "sni": "",
+      "proxy_ip": "104.18.33.113",
+      "proxyport": "80",
+      "tlsport": "",
+      "connection_type": "proxy"
+    },
+    {
+      "Name": "VIVO 30",
+      "FLAG": "vi.png",
+      "payload": "ACL / HTTP/1.1[lf]Host: [app_host][lf]Upgrade: Websocket[lf][split][lf]",
+      "sni": "",
+      "proxy_ip": "vivo360.vivo.com.br",
+      "proxyport": "80",
+      "tlsport": "",
+      "connection_type": "proxy"
+    },
+    {
+      "Name": "VIVO 31",
+      "FLAG": "vi.png",
+      "payload": "ACL / HTTP/1.1[lf]Host: [app_host][lf]Upgrade: Websocket[lf][split][lf]",
+      "sni": "",
+      "proxy_ip": "104.18.37.24",
+      "proxyport": "80",
+      "tlsport": "",
+      "connection_type": "proxy"
+    },
+    {
+      "Name": "VIVO 32",
+      "FLAG": "vi.png",
+      "payload": "ACL / HTTP/1.1[lf]Host: [app_host][lf]Upgrade: Websocket[lf][split][lf]",
+      "sni": "",
+      "proxy_ip": "api.vivo.com.br",
+      "proxyport": "80",
+      "tlsport": "",
+      "connection_type": "proxy"
+    },
+    {
+      "Name": "VIVO 33",
+      "FLAG": "vi.png",
+      "payload": "GET / HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: Websocket[crlf]Connection: Upgrade[crlf][crlf]",
+      "sni": "",
+      "proxy_ip": "104.18.6.41",
+      "proxyport": "80",
+      "tlsport": "",
+      "connection_type": "proxy"
+    },
+    {
+      "Name": "VIVO 34",
+      "FLAG": "vi.png",
+      "payload": "GET / HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: Websocket[crlf]Connection: Upgrade[crlf][crlf]",
+      "sni": "",
+      "proxy_ip": "104.18.7.41",
+      "proxyport": "80",
+      "tlsport": "",
+      "connection_type": "proxy"
+    },
+    {
+      "Name": "VIVO 35",
+      "FLAG": "vi.png",
+      "payload": "GET / HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: Websocket[crlf]Connection: Upgrade[crlf][crlf]",
+      "sni": "",
+      "proxy_ip": "104.18.7.80",
+      "proxyport": "80",
+      "tlsport": "",
+      "connection_type": "proxy"
+    },
+    {
+      "Name": "VIVO 36",
+      "FLAG": "vi.png",
+      "payload": "GET / HTTP/1.1[crlf]Host: [app_host][crlf]Connection: Upgrade[crlf]Upgrade: websocket[crlf]User-Agent: Googlebot/2.1 (+http://www.google.com/bot.html)[crlf][crlf]",
+      "sni": "",
+      "proxy_ip": "104.17.72.206",
+      "proxyport": "80",
+      "tlsport": "",
+      "connection_type": "proxy"
+    },
+    {
+      "Name": "VIVO 37",
+      "FLAG": "vi.png",
+      "payload": "GET / HTTP/1.1[crlf]Host: [app_host][crlf]Connection: Upgrade[crlf]Upgrade: websocket[crlf]User-Agent: Googlebot/2.1 (+http://www.google.com/bot.html)[crlf][crlf]",
+      "sni": "",
+      "proxy_ip": "104.17.70.206",
+      "proxyport": "80",
+      "tlsport": "",
+      "connection_type": "proxy"
+    },
+    {
+      "Name": "VIVO 38",
+      "FLAG": "vi.png",
+      "payload": "GET / HTTP/1.1[crlf]Host: [app_host][crlf]Connection: Upgrade[crlf]Upgrade: websocket[crlf]User-Agent: Googlebot/2.1 (+http://www.google.com/bot.html)[crlf][crlf]",
+      "sni": "",
+      "proxy_ip": "104.17.73.206",
+      "proxyport": "80",
+      "tlsport": "",
+      "connection_type": "proxy"
+    },
+    {
+      "Name": "VIVO 39",
+      "FLAG": "vi.png",
+      "payload": "GET / HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive[crlf][crlf];ACL / HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive[crlf][crlf]",
+      "sni": "",
+      "proxy_ip": "104.18.37.248",
+      "proxyport": "80",
+      "tlsport": "",
+      "connection_type": "proxy"
+    },
+    {
+      "Name": "VIVO 40",
+      "FLAG": "vi.png",
+      "payload": "GET / HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive[crlf][crlf];ACL / HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive[crlf][crlf]",
+      "sni": "",
+      "proxy_ip": "172.64.150.8",
+      "proxyport": "80",
+      "tlsport": "",
+      "connection_type": "proxy"
+    },
+    {
+      "Name": "VIVO 41",
+      "FLAG": "vi.png",
+      "payload": "GET / HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive[crlf][crlf];ACL / HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive[crlf][crlf]",
+      "sni": "",
+      "proxy_ip": "104.18.6.41",
+      "proxyport": "80",
+      "tlsport": "",
+      "connection_type": "proxy"
+    },
+    {
+      "Name": "VIVO 42",
+      "FLAG": "vi.png",
+      "payload": "GET / HTTP/1.1[lf]Host: [app_host][lf]Upgrade: Websocket[lf][lf]",
+      "sni": "",
+      "proxy_ip": "104.18.22.33",
+      "proxyport": "80",
+      "tlsport": "",
+      "connection_type": "proxy"
+    },
+    {
+      "Name": "VIVO 43",
+      "FLAG": "vi.png",
+      "payload": "GET / HTTP/1.1[lf]Host: [app_host][lf]Upgrade: Websocket[lf][lf]",
+      "sni": "",
+      "proxy_ip": "104.18.23.33",
+      "proxyport": "80",
+      "tlsport": "",
+      "connection_type": "proxy"
+    },
+    {
+      "Name": "VIVO 44",
+      "FLAG": "vi.png",
+      "payload": "GET / HTTP/1.1[lf]Host: [app_host][lf]Upgrade: Websocket[lf][lf]",
+      "sni": "",
+      "proxy_ip": "104.18.36.19",
+      "proxyport": "80",
+      "tlsport": "",
+      "connection_type": "proxy"
+    },
+    {
+      "Name": "VIVO 45",
+      "FLAG": "vi.png",
+      "payload": "[split]GET sni://api.vivo.com.br HTTP/1.1[crlf]Host: [app_host][crlf]X-Forward-Host: [app_host][crlf] wss://vivo.com.br [crlf]Connection: upgrade[crlf]upgrade: websocket[realData][crlf][crlf]",
+      "sni": "",
+      "proxy_ip": "[server_host]",
+      "proxyport": "80",
+      "tlsport": "",
+      "connection_type": "proxy"
+    },
+    {
+      "Name": "VIVO 46",
+      "FLAG": "vi.png",
+      "payload": "[split]ACL sni://cdn.jsdelivr.net HTTP/1.1[crlf]Host: [app_host][crlf]X-Forward-Host: [app_host][crlf]Connection: upgrade[crlf]upgrade: websocket[crlf][crlf]",
+      "sni": "",
+      "proxy_ip": "[server_host]",
+      "proxyport": "80",
+      "tlsport": "",
+      "connection_type": "proxy"
+    },
+    {
+      "Name": "VIVO 47",
+      "FLAG": "vi.png",
+      "payload": "[split] POLL http://1.1.1.1rotate=buzzfeed.com;mobile.adobe.com;1.0.0.5 HTTP/1.1[crlf]Host: http://1.1.1.1rotate=buzzfeed.com;v;mobile.google.com;1.0.0.5[crlf][crlf]",
+      "sni": "",
+      "proxy_ip": "[server_host]",
+      "proxyport": "80",
+      "tlsport": "",
+      "connection_type": "proxy"
+    },
+    {
+      "Name": "VIVO 48",
+      "FLAG": "vi.png",
+      "payload": "[split]ACL / HTTP/1.1[crlf]Host: community-dashbird.buzzfeed.com[crlf]Upgrade: Upgrade[crlf]Connection: Upgrade[crlf][crlf]",
+      "sni": "",
+      "proxy_ip": "[server_host]",
+      "proxyport": "80",
+      "tlsport": "",
+      "connection_type": "proxy"
+    },
+    {
+      "Name": "VIVO 49",
+      "FLAG": "vi.png",
+      "payload": "[split] ACL / HTTP/1.1[crlf]Host: community-dashbird.buzzfeed.com[crlf]Upgrade: Upgrade[crlf]Connection: Upgrade[crlf][crlf]",
+      "sni": "",
+      "proxy_ip": "[server_host]",
+      "proxyport": "80",
+      "tlsport": "",
+      "connection_type": "proxy"
+    },
+    {
+      "Name": "VIVO 50",
+      "FLAG": "vi.png",
+      "payload": "[split]ACL / HTTP/1.1[lf][crlf]Host:[rotate= 104.18.6.80;104.18.7.80;162.159.138.6;162.159.128.7;104.17.70.206;104.17.71.206;104.17.72.206;104.17.73.206;104.17.74.206;172.64.144.109;104.18.43.147;104.18.7.41][crlf]Connection: Upgrade[crlf]Upgrade: Websocket[crlf][crlf]",
+      "sni": "",
+      "proxy_ip": "[app_host]",
+      "proxyport": "80",
+      "tlsport": "",
+      "connection_type": "proxy"
+    },
+    {
+      "Name": "VIVO 51",
+      "FLAG": "vi.png",
+      "payload": "[split]ACL / HTTP/1.1[crlf]Host: vigia.vivo.com.br[crlf]Upgrade: Upgrade[crlf]Connection: Upgrade[crlf][crlf]",
+      "sni": "",
+      "proxy_ip": "[app_host]",
+      "proxyport": "80",
+      "tlsport": "",
+      "connection_type": "proxy"
+    },
+    {
+      "Name": "VIVO 52",
+      "FLAG": "vi.png",
+      "payload": "[split]PATCH AtlasN42/ HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: websocket[crlf][crlf]",
+      "sni": "",
+      "proxy_ip": "[app_host]",
+      "proxyport": "80",
+      "tlsport": "",
+      "connection_type": "proxy"
+    },
+    {
+      "Name": "VIVO 53",
+      "FLAG": "vi.png",
+      "payload": "[split] LOCK http://1.1.1.1rotate=buzzfeed.com;mobile.adobe.com;1.0.0.5 HTTP/1.1[crlf]Host: http://1.1.1.1rotate=buzzfeed.com;v;mobile.google.com;1.0.0.5[crlf][crlf]",
+      "sni": "",
+      "proxy_ip": "[app_host]",
+      "proxyport": "80",
+      "tlsport": "",
+      "connection_type": "proxy"
+    },
+    {
+      "Name": "VIVO 54",
+      "FLAG": "vi.png",
+      "payload": "[split]ACL HTTP / Host:api-equipamentos.vivo.com.br/ HTTP/1.1[crlf]X-Online-Host: api-equipamentos.vivo.com.br[crlf]X-Forwarded-Host: api-equipamentos.vivo.com.br[crlf]Proxy-Connection: keep-alive[crlf]Upgrade: Websocket[crlf][crlf]",
+      "sni": "",
+      "proxy_ip": "[app_host]",
+      "proxyport": "80",
+      "tlsport": "",
+      "connection_type": "proxy"
+    },
+    {
+      "Name": "VIVO 55",
+      "FLAG": "vi.png",
+      "payload": "ACL / HTTP/1.1[lf]Host: [app_host][lf]Upgrade: Websocket[lf][split][lf]",
+      "sni": "",
+      "proxy_ip": "104.17.70.206",
+      "proxyport": "80",
+      "tlsport": "",
+      "connection_type": "proxy"
+    },
+    {
+      "Name": "VIVO 56",
+      "FLAG": "vi.png",
+      "payload": "ACL / HTTP/1.1[lf]Host: [app_host][lf]Upgrade: Websocket[lf][split][lf]",
+      "sni": "",
+      "proxy_ip": "104.26.5.32",
+      "proxyport": "80",
+      "tlsport": "",
+      "connection_type": "proxy"
+    },
+    {
+      "Name": "VIVO 57",
+      "FLAG": "vi.png",
+      "payload": "ACL / HTTP/1.1[lf]Host: [app_host][lf]Upgrade: Websocket[lf][split][lf]",
+      "sni": "",
+      "proxy_ip": "104.26.4.32",
+      "proxyport": "80",
+      "tlsport": "",
+      "connection_type": "proxy"
+    },
+    {
+      "Name": "VIVO 58",
+      "FLAG": "vi.png",
+      "payload": "PATCH / HTTP/1.1[lf]Host: [app_host][lf]Upgrade: Websocket websocket[realData][crlf][crlf]",
+      "sni": "",
+      "proxy_ip": "141.193.213.10",
+      "proxyport": "80",
+      "tlsport": "",
+      "connection_type": "proxy"
+    },
+    {
+      "Name": "VIVO 59",
+      "FLAG": "vi.png",
+      "payload": "PATCH / HTTP/1.1[lf]Host: [app_host][lf]Upgrade: Websocket websocket[realData][crlf][crlf]",
+      "sni": "",
+      "proxy_ip": "141.193.213.11",
+      "proxyport": "80",
+      "tlsport": "",
+      "connection_type": "proxy"
+    },
+    {
+      "Name": "VIVO 60",
+      "FLAG": "vi.png",
+      "payload": "ACL / HTTP/1.1[lf]Host: [app_host][lf]Upgrade: Websocket[lf][split][lf]",
+      "sni": "",
+      "proxy_ip": "blog.deezer.com",
+      "proxyport": "80",
+      "tlsport": "",
+      "connection_type": "proxy"
+    },
+    {
+      "Name": "CLARO 01",
+      "FLAG": "cl.png",
+      "payload": "",
+      "sni": "[rotate=.web.whatsapp.com;m.twitter.com;m.waze.com;whatsapp.net]",
+      "proxy_ip": "[server_host]",
+      "proxyport": "",
+      "tlsport": "[app_sslport]",
+      "connection_type": "ssl"
+    },
+    {
+      "Name": "CLARO 02",
+      "FLAG": "cl.png",
+      "payload": "ACL / HTTP/1.1[lf]Host: [app_host][lf]Upgrade: Websocket[lf][split][lf];PATCH / HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive[crlf][crlf]",
+      "sni": "",
+      "proxy_ip": "104.17.64.225;104.19.240.25;104.18.27.160;104.16.239.166;104.18.28.181;104.16.237.16;104.18.33.113;141.193.213.11;172.66.0.157;172.67.74.152;104.26.12.205;162.159.140.159",
+      "proxyport": "80",
+      "tlsport": "",
+      "connection_type": "proxy"
+    },
+    {
+      "Name": "CLARO 03",
+      "FLAG": "cl.png",
+      "payload": "",
+      "sni": ".web.whatsapp.com",
+      "proxy_ip": "[server_host]",
+      "proxyport": "",
+      "tlsport": "[app_sslport]",
+      "connection_type": "ssl"
+    },
+    {
+      "Name": "CLARO 04",
+      "FLAG": "cl.png",
+      "payload": "",
+      "sni": "m.waze.com",
+      "proxy_ip": "[server_host]",
+      "proxyport": "",
+      "tlsport": "[app_sslport]",
+      "connection_type": "ssl"
+    },
+    {
+      "Name": "CLARO 05",
+      "FLAG": "cl.png",
+      "payload": "",
+      "sni": "m.twitter.com",
+      "proxy_ip": "[server_host]",
+      "proxyport": "",
+      "tlsport": "[app_sslport]",
+      "connection_type": "ssl"
+    },
+    {
+      "Name": "CLARO 06",
+      "FLAG": "cl.png",
+      "payload": "",
+      "sni": "whatsapp.net",
+      "proxy_ip": "[server_host]",
+      "proxyport": "",
+      "tlsport": "[app_sslport]",
+      "connection_type": "ssl"
+    },
+    {
+      "Name": "CLARO 07",
+      "FLAG": "cl.png",
+      "payload": "ACL / HTTP/1.1[lf]Host: [app_host][lf]Upgrade: Websocket[lf][split][lf];PATCH / HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive[crlf][crlf]",
+      "sni": "",
+      "proxy_ip": "104.17.64.225;104.19.240.25;104.18.27.160;104.16.239.166;104.18.28.181;104.16.237.16;104.18.33.113;141.193.213.11;172.66.0.157;172.67.74.152;104.26.12.205;162.159.140.159",
+      "proxyport": "80",
+      "tlsport": "",
+      "connection_type": "proxy"
+    },
+    {
+      "Name": "TIM 01",
+      "FLAG": "ti.png",
+      "payload": "GET /proxy HTTP/1.1[lf]Host: [app_host][lf]Upgrade: websocket[lf][lf]",
+      "sni": "[app_host]",
+      "proxy_ip": "162.247.241.4",
+      "proxyport": "",
+      "tlsport": "443",
+      "connection_type": "sslproxy"
+    },
+    {
+      "Name": "TIM 02",
+      "FLAG": "ti.png",
+      "payload": "GET / HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: websocket[crlf]Connection: Upgrade[crlf][crlf]",
+      "sni": "[app_host]",
+      "proxy_ip": "162.247.241.4",
+      "proxyport": "443",
+      "tlsport": "443",
+      "connection_type": "sslproxy"
+    },
+    {
+      "Name": "TIM 03",
+      "FLAG": "ti.png",
+      "payload": "GET / HTTP/1.1[crlf]Host: bancah.com.br[crlf][crlf][split]UNLOCK /? HTTP/1.1[crlf]Host: [app_host][crlf]Connection: upgrade[crlf]User-Agent: [ua][crlf]Upgrade: websocket[crlf]X-Skip: 200[crlf][crlf][split];UNLOCK /? HTTP/1.1[crlf]Host: bancah.com.br[crlf]Content-Length:9999999999999[crlf]X-Skip: 200[crlf][crlf];GET / HTTP/1.1[crlf]Host: bancah.com.br[crlf][crlf][split];UNLOCK /? HTTP/1.1[crlf]Host: [app_host][crlf]Connection: upgrade[crlf]User-Agent: [ua][crlf]Upgrade: websocket[crlf][crlf][split];UNLOCK /? HTTP/1.1[crlf]Host: bancah.com.br[crlf]Content-Length:9999999999999[crlf][crlf]",
+      "sni": "",
+      "proxy_ip": "bancah.com.br",
+      "proxyport": "80",
+      "tlsport": "",
+      "connection_type": "proxy"
+    },
+    {
+      "Name": "TIM 04",
+      "FLAG": "ti.png",
+      "payload": "GET / HTTP/1.1[crlf]Host: ayabooks.com.br[crlf][crlf][split]UNLOCK /? HTTP/1.1[crlf]Host: [app_host][crlf]Connection: upgrade[crlf]User-Agent: [ua][crlf]Upgrade: websocket[crlf]X-Skip: 200[crlf][crlf][split];UNLOCK /? HTTP/1.1[crlf]Host: ayabooks.com.br[crlf]Content-Length:9999999999999[crlf]X-Skip: 200[crlf][crlf];GET / HTTP/1.1[crlf]Host: ayabooks.com.br[crlf][crlf][split];UNLOCK /? HTTP/1.1[crlf]Host: [app_host][crlf]Connection: upgrade[crlf]User-Agent: [ua][crlf]Upgrade: websocket[crlf][crlf][split;]UNLOCK /? HTTP/1.1[crlf]Host: ayabooks.com.br[crlf]Content-Length:9999999999999[crlf][crlf]",
+      "sni": "",
+      "proxy_ip": "ayabooks.com.br",
+      "proxyport": "80",
+      "tlsport": "",
+      "connection_type": "proxy"
+    },
+    {
+      "Name": "TIM 05",
+      "FLAG": "ti.png",
+      "payload": "GET / HTTP/1.1[crlf]Host: connect.blackbean.cloud[crlf][crlf][split];UNLOCK /? HTTP/1.1[crlf]Host: [app_host][crlf]Connection: upgrade[crlf]User-Agent: [ua][crlf]Upgrade: websocket[crlf]X-Skip: 200[crlf][crlf][split];UNLOCK /? HTTP/1.1[crlf]Host: connect.blackbean.cloud[crlf]Content-Length:9999999999999[crlf]X-Skip: 200[crlf][crlf];GET / HTTP/1.1[crlf]Host: connect.blackbean.cloud[crlf][crlf][split]UNLOCK /? HTTP/1.1[crlf]Host: [app_host][crlf]Connection: upgrade[crlf]User-Agent: [ua][crlf]Upgrade: websocket[crlf][crlf][split];UNLOCK /? HTTP/1.1[crlf]Host: connect.blackbean.cloud[crlf]Content-Length:9999999999999[crlf][crlf]",
+      "sni": "",
+      "proxy_ip": "connect.blackbean.cloud",
+      "proxyport": "80",
+      "tlsport": "",
+      "connection_type": "proxy"
+    },
+    {
+      "Name": "TIM 06",
+      "FLAG": "ti.png",
+      "payload": "GET wss://52.1.137.23/server1 HTTP/1.1[lf]Host: icatu-cobranca.stg.m4u.com.br[lf]Host: icatu-cobranca.stg.m4u.com.br[lf]Connection: [method][lf]Connection: Upgrade[lf]Upgrade: Websocket[crlf][lf]",
+      "sni": "tim-pagamentocontas-web.m4u.com.br;tim-pagamentocontas-api.m4u.com.br;web-timnegocia.stg.m4u.com.br",
+      "proxy_ip": "52.1.137.23",
+      "proxyport": "",
+      "tlsport": "443",
+      "connection_type": "sslproxy"
+    },
+    {
+      "Name": "TIM 07",
+      "FLAG": "ti.png",
+      "payload": "GET / HTTP/1.1[lf]Host: bancah.com.br[crlf][crlf][split][crlf]GET- / HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: Websocket[crlf][crlf]",
+      "sni": "",
+      "proxy_ip": "bancah.com.br",
+      "proxyport": "80",
+      "tlsport": "",
+      "connection_type": "proxy"
+    },
+    {
+      "Name": "TIM 08",
+      "FLAG": "ti.png",
+      "payload": "GET / HTTP/1.1[crlf]Host: [rotate=migracaodeplanos.tim.com.br;meutim.tim.com.br;tim.com.br;www.tim.com.br][crlf][crlf][split];CHECKOUT / HTTP/1.1[crlf]Host: www.tim.com.br[crlf][crlf];GET /server1 HTTP/1.1[crlf]Host: 108.158.122.33[crlf]Connection: Upgrade[lf]Upgrade: Websocket[crlf][crlf]",
+      "sni": "",
+      "proxy_ip": "108.158.122.33",
+      "proxyport": "80",
+      "tlsport": "",
+      "connection_type": "proxy"
+    },
+    {
+      "Name": "TIM 09",
+      "FLAG": "ti.png",
+      "payload": "GET / HTTP/1.1[crlf]Host: [rotate=migracaodeplanos.tim.com.br;meutim.tim.com.br;tim.com.br;www.tim.com.br][crlf][crlf][split];CHECKOUT / HTTP/1.1[crlf]Host: www.tim.com.br[crlf][crlf]GET /server1 HTTP/1.1[crlf]Host: 13.35.116.39[crlf]Connection: Upgrade[lf]Upgrade: Websocket[crlf][crlf]",
+      "sni": "",
+      "proxy_ip": "13.35.116.39",
+      "proxyport": "80",
+      "tlsport": "",
+      "connection_type": "proxy"
+    },
+    {
+      "Name": "TIM 10",
+      "FLAG": "ti.png",
+      "payload": "GET / HTTP/1.1[crlf]Host: [rotate=migracaodeplanos.tim.com.br;meutim.tim.com.br;tim.com.br;www.tim.com.br][crlf][crlf][split];CHECKOUT / HTTP/1.1[crlf]Host: www.tim.com.br[crlf][crlf];GET /server1 HTTP/1.1[crlf]Host: 108.157.173.97[crlf]Connection: Upgrade[lf]Upgrade: Websocket[crlf][crlf]",
+      "sni": "",
+      "proxy_ip": "108.157.173.97",
+      "proxyport": "80",
+      "tlsport": "",
+      "connection_type": "proxy"
+    },
+    {
+      "Name": "TIM 11",
+      "FLAG": "ti.png",
+      "payload": "GET / HTTP/1.1[crlf]Host: s0.2mdn.net[crlf]Connection: Upgrade[crlf]Upgrade: Websocket[crlf][crlf]",
+      "sni": "s0.2mdn.net",
+      "proxy_ip": "s0.2mdn.net",
+      "proxyport": "443",
+      "tlsport": "",
+      "connection_type": "proxy"
+    },
+    {
+      "Name": "TIM 12",
+      "FLAG": "ti.png",
+      "payload": "ACL / HTTP/1.1[lf]Host: [app_host][lf]Upgrade: Websocket[lf][split][lf];GET //trace HTTP/1.1[lf]Host: [rotate=api.sandbox.c6bank.com.br;boleto.c6bank.com.br][crlf][crlf][split][crlf];GET- / HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: Websocket[crlf][crlf]",
+      "sni": "",
+      "proxy_ip": "api.sandbox.c6bank.com.br",
+      "proxyport": "80",
+      "tlsport": "",
+      "connection_type": "proxy"
+    },
+    {
+      "Name": "TIM 13",
+      "FLAG": "ti.png",
+      "payload": "ACL / HTTP/1.1[lf]Host: [app_host][lf]Upgrade: Websocket[lf][split][lf];GET /cdn-cgi/trace HTTP/1.1[lf]Host: [rotate=104.18.4.18;boleto.c6bank.com.br][crlf][crlf][split][crlf];GET- / HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: Websocket[crlf][crlf]",
+      "sni": "",
+      "proxy_ip": "104.18.4.18",
+      "proxyport": "80",
+      "tlsport": "",
+      "connection_type": "proxy"
+    },
+    {
+      "Name": "TIM 14",
+      "FLAG": "ti.png",
+      "payload": "ACL / HTTP/1.1[lf]Host: [app_host][lf]Upgrade: Websocket[lf][split][lf];;GET /cdn-cgi/trace HTTP/1.1[lf]Host: [rotate=revive.timrecompensas.com.br;boleto.c6bank.com.br][crlf][crlf][split][crlf];GET- / HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: Websocket[crlf][crlf]",
+      "sni": "",
+      "proxy_ip": "revive.timrecompensas.com.br",
+      "proxyport": "80",
+      "tlsport": "",
+      "connection_type": "proxy"
+    },
+    {
+      "Name": "TIM 15",
+      "FLAG": "ti.png",
+      "payload": "GET / HTTP/1.1[crlf]Host: [app_host][crlf]Connection: Upgrade[crlf]Upgrade: Websocket[crlf][crlf]",
+      "sni": "[app_host];cursos.alura.com.br;mulherespositivas.com.br;www.c6bank.com.br",
+      "proxy_ip": "[app_host]",
+      "proxyport": "",
+      "tlsport": "443",
+      "connection_type": "sslproxy"
+    },
+    {
+      "Name": "TIM 16",
+      "FLAG": "ti.png",
+      "payload": "GET / HTTP/1.1[crlf]Host: [app_host][crlf]Connection: Upgrade[crlf]Upgrade: Websocket[crlf][crlf]",
+      "sni": "[app_host]",
+      "proxy_ip": "[app_host]",
+      "proxyport": "",
+      "tlsport": "443",
+      "connection_type": "sslproxy"
+    },
+    {
+      "Name": "TIM 17",
+      "FLAG": "ti.png",
+      "payload": "GET / HTTP/1.1[crlf]Host: [rotate=migracaodeplanos.tim.com.br;meutim.tim.com.br;meuplano2.tim.com.br;auth.tim.com.br;meutim.com.br;auth2.tim.com.br;tim.com.br;www.tim.com.br;auth1.tim.com.br;auth3.tim.com.br][crlf][crlf][split];CHECKOUT / HTTP/1.1[crlf]Host: www.tim.com.br[crlf][crlf]GET /server1 HTTP/1.1[crlf]Host: 108.158.122.33[crlf]Connection: Upgrade[lf]Upgrade: Websocket[crlf][crlf]",
+      "sni": "",
+      "proxy_ip": "108.158.122.33",
+      "proxyport": "80",
+      "tlsport": "",
+      "connection_type": "proxy"
+    },
+    {
+      "Name": "TIM 18",
+      "FLAG": "ti.png",
+      "payload": "GET / HTTP/1.1[crlf]Host: [rotate=migracaodeplanos.tim.com.br;meutim.tim.com.br;meuplano2.tim.com.br;auth.tim.com.br;meutim.com.br;auth2.tim.com.br;tim.com.br;www.tim.com.br;auth1.tim.com.br;auth3.tim.com.br][crlf][crlf][split;];CHECKOUT / HTTP/1.1[crlf]Host: www.tim.com.br[crlf][crlf]GET /server1 HTTP/1.1[crlf]Host: 13.35.116.39[crlf]Connection: Upgrade[lf]Upgrade: Websocket[crlf][crlf]",
+      "sni": "",
+      "proxy_ip": "13.35.116.39",
+      "proxyport": "80",
+      "tlsport": "",
+      "connection_type": "proxy"
+    },
+    {
+      "Name": "TIM 19",
+      "FLAG": "ti.png",
+      "payload": "GET / HTTP/1.1[crlf]Host: [rotate=migracaodeplanos.tim.com.br;meutim.tim.com.br;meuplano2.tim.com.br;auth.tim.com.br;meutim.com.br;auth2.tim.com.br;tim.com.br;www.tim.com.br;auth1.tim.com.br;auth3.tim.com.br][crlf][crlf][split];CHECKOUT / HTTP/1.1[crlf]Host: www.tim.com.br[crlf][crlf]GET /server1 HTTP/1.1[crlf]Host: 108.157.173.97[crlf]Connection: Upgrade[lf]Upgrade: Websocket[crlf][crlf]",
+      "sni": "",
+      "proxy_ip": "108.157.173.97",
+      "proxyport": "80",
+      "tlsport": "",
+      "connection_type": "proxy"
+    },
+    {
+      "Name": "TIM 20",
+      "FLAG": "ti.png",
+      "payload": "GET / HTTP/1.1[crlf]Host: [rotate=timlive.tim.com.br;tim.com.br;tim-myplan.plat-m4u.io][crlf][crlf][split][crlf][crlf];GET- / HTTP/1.1[crlf]Host: tim.com.br[lf][lf];GET / HTTP/1.1[crlf]Host: iret.media[lf]Connection: Upgrade[lf]Upgrade: websocket[lf]User-Agent: Googl/ebot/2.1 (+http://www.google.com/bot.html)[lf][lf]",
+      "sni": "",
+      "proxy_ip": "iret.media",
+      "proxyport": "80",
+      "tlsport": "",
+      "connection_type": "proxy"
+    },
+    {
+      "Name": "TIM 21",
+      "FLAG": "ti.png",
+      "payload": "GET / HTTP/1.1[crlf]Host: [rotate=timlive.tim.com.br;tim.com.br;tim-myplan.plat-m4u.io][crlf][crlf][split][crlf][crlf];GET- / HTTP/1.1[crlf]Host: tim.com.br[lf][lf];GET / HTTP/1.1[crlf]Host: www.ventoecia.com.br[lf]Connection: Upgrade[lf]Upgrade: websocket[lf]User-Agent: Googl/ebot/2.1 (+http://www.google.com/bot.html)[lf][lf]",
+      "sni": "",
+      "proxy_ip": "www.ventoecia.com.br",
+      "proxyport": "80",
+      "tlsport": "",
+      "connection_type": "proxy"
+    },
+    {
+      "Name": "TIM 22",
+      "FLAG": "ti.png",
+      "payload": "GET / HTTP/1.1[crlf]Host: [rotate=timlive.tim.com.br;tim.com.br;tim-myplan.plat-m4u.io][crlf][crlf][split][crlf][crlf];GET- / HTTP/1.1[crlf]Host: tim.com.br[lf][lf];GET /server1 HTTP/1.1[crlf]Host: bounce.mail.planos.tim.com.br[lf]Connection: Upgrade[lf]Upgrade: websocket[lf]User-Agent: Googl/ebot/2.1 (+http://www.google.com/bot.html)[lf][lf]",
+      "sni": "",
+      "proxy_ip": "bounce.mail.planos.tim.com.br",
+      "proxyport": "80",
+      "tlsport": "",
+      "connection_type": "proxy"
+    },
+    {
+      "Name": "TIM 23",
+      "FLAG": "ti.png",
+      "payload": "GET /cdn-cgi/trace HTTP/1.1[lf]Host: bancah.com.br[crlf][crlf][split][crlf];GET- / HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: Websocket[crlf][crlf];CONNECT / HTTP/1.9[crlf]host: bancah.com.br[crlf][crlf][split][crlf]OPTIONS- // HTTP/1.9[crlf]host: [app_host][crlf]Expect: 200-continue[crlf]Proxy-Connection: Keep-Alive[crlf]Keep-Alive: timeout=5, max=1000[crlf]Connection: Upgrade[crlf]Upgrade: websocket[crlf]Sec WebSocketExtensions: superspeed[crlf]Last-Modified: Fri, 17 March 2022 04:32:39 GMT[crlf]Server: Qnax[crlf]User-Agent: Mozilla/5.0 (Linux; Android 4.4.2); Nexus 5 Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/33.0.1750.117 Mobile Safari/537.36 OPR/20.0.1396.72047[crlf][crlf];GET /cdn-cgi/trace HTTP/1.1[lf]Host: timofertas.com[crlf][crlf][split][crlf]GET- / HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: Websocket[crlf][crlf];GET /ok/  HTTP/1.1[crlf]Host: bancah.com.br[crlf][crlf][split]- /x9 HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: Websocket[crlf]@SOCKSLITE[crlf][crlf]",
+      "sni": "",
+      "proxy_ip": "bancah.com.br",
+      "proxyport": "80",
+      "tlsport": "",
+      "connection_type": "proxy"
+    },
+    {
+      "Name": "TIM 24",
+      "FLAG": "ti.png",
+      "payload": "GET /cdn-cgi/trace HTTP/1.1[lf]Host: 104.18.4.18[crlf][crlf][split][crlf]GET- / HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: Websocket[crlf][crlf];CONNECT / HTTP/1.9[crlf]host: 104.18.4.18[crlf][crlf][split][crlf];OPTIONS- // HTTP/1.9[crlf]host: [app_host][crlf]Expect: 200-continue[crlf]Proxy-Connection: Keep-Alive[crlf]Keep-Alive: timeout=5, max=1000[crlf]Connection: Upgrade[crlf]Upgrade: websocket[crlf]Sec WebSocketExtensions: superspeed[crlf]Last-Modified: Fri, 17 March 2022 04:32:39 GMT[crlf]Server: Qnax[crlf]User-Agent: Mozilla/5.0 (Linux; Android 4.4.2); Nexus 5 Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/33.0.1750.117 Mobile Safari/537.36 OPR/20.0.1396.72047[crlf][crlf];GET /cdn-cgi/trace HTTP/1.1[lf]Host: timofertas.com[crlf][crlf][split][crlf]GET- / HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: Websocket[crlf][crlf];GET /ok/  HTTP/1.1[crlf]Host: 104.18.4.18[crlf][crlf][split]- /x9 HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: Websocket[crlf]@SOCKSLITE[crlf][crlf]",
+      "sni": "",
+      "proxy_ip": "104.18.4.18",
+      "proxyport": "80",
+      "tlsport": "",
+      "connection_type": "proxy"
+    },
+    {
+      "Name": "TIM 25",
+      "FLAG": "ti.png",
+      "payload": "GET /cdn-cgi/trace HTTP/1.1[lf]Host: revive.timrecompensas.com.br[crlf][crlf][split][crlf]GET- / HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: Websocket[crlf][crlf];CONNECT / HTTP/1.9[crlf]host: revive.timrecompensas.com.br[crlf][crlf][split][crlf]OPTIONS- // HTTP/1.9[crlf]host: [app_host][crlf]Expect: 200-continue[crlf]Proxy-Connection: Keep-Alive[crlf]Keep-Alive: timeout=5, max=1000[crlf]Connection: Upgrade[crlf]Upgrade: websocket[crlf]Sec WebSocketExtensions: superspeed[crlf]Last-Modified: Fri, 17 March 2022 04:32:39 GMT[crlf]Server: Qnax[crlf]User-Agent: Mozilla/5.0 (Linux; Android 4.4.2); Nexus 5 Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/33.0.1750.117 Mobile Safari/537.36 OPR/20.0.1396.72047[crlf][crlf];GET /cdn-cgi/trace HTTP/1.1[lf]Host: timofertas.com[crlf][crlf][split][crlf]GET- / HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: Websocket[crlf][crlf];GET /ok/  HTTP/1.1[crlf]Host: revive.timrecompensas.com.br[crlf][crlf][split]- /x9 HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: Websocket[crlf]@SOCKSLITE[crlf][crlf]",
+      "sni": "",
+      "proxy_ip": "revive.timrecompensas.com.br",
+      "proxyport": "80",
+      "tlsport": "",
+      "connection_type": "proxy"
+    },
+    {
+      "Name": "TIM 26",
+      "FLAG": "ti.png",
+      "payload": "ACL / HTTP/1.3[crlf]Host: pre-onboarding-h.c6bank.app[crlf]Expect: 100-continue[crlf][crlf][split][crlf][crlf]ACL- // HTTP/1.3[crlf]Host: [app_host][crlf]Expect: 100-continue[crlf]Upgrade: websocket[crlf]User-Agent: Googlebot/2.1 (+http://www.google.com/bot.html)[crlf][crlf]",
+      "sni": "",
+      "proxy_ip": "104.19.239.25;104.19.240.93;104.19.241.93",
+      "proxyport": "80",
+      "tlsport": "",
+      "connection_type": "proxy"
+    },
+    {
+      "Name": "TIM 27",
+      "FLAG": "ti.png",
+      "payload": "GET / HTTP/1.1[lf]Host: [app_host][lf]Upgrade: websocket[lf][lf]",
+      "sni": "[app_host]",
+      "proxy_ip": "162.247.241.4",
+      "proxyport": "",
+      "tlsport": "443",
+      "connection_type": "sslproxy"
+    },
+    {
+      "Name": "TIM 28",
+      "FLAG": "ti.png",
+      "payload": "GET / HTTP/1.1 [lf]Host: [rotate=cdn.c6bank.com.br;mobile.c6bank.app][lf][lf][split]GET- / HTTP/1.1 [lf]Host: [app_host][lf]Upgrade:websocket[lf][lf]",
+      "sni": "",
+      "proxy_ip": "104.19.239.25;104.19.240.93;104.19.241.93",
+      "proxyport": "80",
+      "tlsport": "",
+      "connection_type": "proxy"
+    },
+    {
+      "Name": "TIM 29",
+      "FLAG": "ti.png",
+      "payload": "GET / HTTP/1.1[crlf]Host: recaptcha.net[crlf]Connection: Upgrade[crlf]Upgrade: Websocket[crlf][crlf]",
+      "sni": "migracaodeplanos.tim.com.br;meuplano2.tim.com.br;tim.com.br",
+      "proxy_ip": "recaptcha.net",
+      "proxyport": "",
+      "tlsport": "443",
+      "connection_type": "sslproxy"
+    },
+    {
+      "Name": "TIM 30",
+      "FLAG": "ti.png",
+      "payload": "GET / HTTP/1.1[crlf]Host: widevine.cn[crlf]Connection: Upgrade[crlf]Upgrade: Websocket[crlf][crlf]",
+      "sni": "migracaodeplanos.tim.com.br;meuplano2.tim.com.br;tim.com.br",
+      "proxy_ip": "widevine.cn",
+      "proxyport": "",
+      "tlsport": "443",
+      "connection_type": "sslproxy"
+    },
+    {
+      "Name": "TIM 31",
+      "FLAG": "ti.png",
+      "payload": "GET / HTTP/1.1[crlf]Host: 172.217.30.67[crlf]Connection: Upgrade[crlf]Upgrade: Websocket[crlf][crlf]",
+      "sni": "migracaodeplanos.tim.com.br;meuplano2.tim.com.br;tim.com.br",
+      "proxy_ip": "172.217.30.67",
+      "proxyport": "",
+      "tlsport": "443",
+      "connection_type": "sslproxy"
+    },
+    {
+      "Name": "TIM 32",
+      "FLAG": "ti.png",
+      "payload": "GET /proxy HTTP/1.1[lf]Host: [app_host][lf]Upgrade: websocket[lf][lf]",
+      "sni": "[app_host]",
+      "proxy_ip": "162.247.241.4",
+      "proxyport": "",
+      "tlsport": "443",
+      "connection_type": "sslproxy"
+    },
+    {
+      "Name": "WI-FI 01",
+      "FLAG": "wl.png",
+      "payload": "ACL HTTP/1.1[lf]Host: google.es[lf]",
+      "sni": "",
+      "proxy_ip": "[server_host]",
+      "proxyport": "80",
+      "tlsport": "",
+      "connection_type": "direct"
+    }
+  ],
+  "AppConfig": {
+    "Update": {
+      "LatestVersionCode": 1,
+      "MinimumVersionCode": 1,
+      "ForceUpdate": true
+    },
+    "Urls": {
+      "ConfigUrl": "https://raw.githubusercontent.com/almdevz/config/main/config.json",
+      "BackupUrl1": "",
+      "BackupUrl2": "",
+      "PlayStoreUrl": "https://play.google.com/store/apps/details?id=br.com.nexusconnect"
+    }
+  },
+  "Security": {
+    "SecurityVersion": 1,
+    "AntiMod": true,
+    "EmergencyDisable": false,
+    "CheckSignature": true,
+    "CheckHash": true,
+    "CheckRoot": true,
+    "CheckXposed": true,
+    "CheckDebug": true,
+    "CheckEmulator": true,
+    "CheckPackageName": true,
+    "CheckFrida": true,
+    "CheckClone": true,
+    "BlockNonPlayInstall": false,
+    "BlockRoot": true,
+    "BlockEmulator": true,
+    "BlockAdb": false,
+    "BlockClone": true,
+    "BlockHook": true,
+    "BlockInvalidSignature": true,
+    "BlockInvalidPackage": true
+  }
+}
